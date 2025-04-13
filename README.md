@@ -43,6 +43,8 @@ This app helps users generate a customized newsletter based on their persona and
 | **David Martinez** (Spain) | Space, Biotech, Physics, Renewable Energy |
 
 ---
+## Demo
+![AI Newsletter Demo](Desktop2025.04.13-13.42.51.01-ezgif.com-video-to-gif-converter.gif)
 
 ## 🚀 How to Run Locally
 
