@@ -6,6 +6,8 @@ langchain-core==0.3.35
 langchain-groq==0.2.4
 python-dotenv==1.0.1
 lxml_html_clean==0.4.2
+pydantic==2.10.6
+pydantic_core==2.27.2
 
 
 https://github.com/explosion/spacy-models/releases/download/en_core_web_md-3.8.0/en_core_web_md-3.8.0.tar.gz
