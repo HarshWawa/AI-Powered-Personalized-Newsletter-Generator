@@ -10,7 +10,7 @@ import os
 from dotenv import load_dotenv
 
 load_dotenv()
-apikey = os.getenv("groqPass")
+apikey = os.getenv("groqPass") or st.secrets["groqPass"]
 
 
 # Load spaCy model
