@@ -1,6 +1,8 @@
 import streamlit as st
 import feedparser
-import spacy
+import spacy.cli
+
+
 from newspaper import Article
 from langchain_groq import ChatGroq
 from langchain_core.prompts import ChatPromptTemplate
@@ -14,6 +16,7 @@ apikey = os.getenv("groqPass")
 
 
 # Load spaCy model
+spacy.cli.download("en_core_web_md")
 nlp = spacy.load("en_core_web_md")
 
 llm = ChatGroq(
